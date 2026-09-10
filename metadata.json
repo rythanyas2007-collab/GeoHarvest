@@ -1,0 +1,6 @@
+{
+  "name": "GEOHarvest",
+  "description": "Watershed Intelligence and Action Platform for near-real-time field monitoring with periodically updated satellite intelligence.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

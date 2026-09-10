@@ -1,0 +1,1064 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-09-10T11:17:58.056Z",
+  "organizations": [
+    {
+      "id": "org-tn-wdc",
+      "name": "Tamil Nadu Watershed Development Agency (TAWDEVA)",
+      "code": "TAWDEVA-TVM",
+      "state": "Tamil Nadu",
+      "createdAt": "2024-01-15T09:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-super-admin",
+      "name": "Dr. R. Sundaramurthy, IAS",
+      "email": "superadmin@geoharvest.gov.in",
+      "role": "super_admin",
+      "designation": "Principal Secretary & State Mission Director",
+      "department": "Dept of Agriculture & Watershed Development",
+      "district": "State HQ - Chennai",
+      "isActive": true,
+      "phoneNumber": "+91 94440 11001"
+    },
+    {
+      "id": "usr-gov-admin",
+      "name": "K. Sangeetha, DRO",
+      "email": "govadmin@geoharvest.gov.in",
+      "role": "government_admin",
+      "designation": "Joint Director (Watershed Management)",
+      "department": "Rural Development & Panchayat Raj",
+      "district": "State HQ",
+      "isActive": true,
+      "phoneNumber": "+91 94440 22002"
+    },
+    {
+      "id": "usr-dist-admin",
+      "name": "M. Arumugam, DRDA",
+      "email": "distadmin@geoharvest.gov.in",
+      "role": "district_admin",
+      "designation": "Project Director, DRDA",
+      "department": "District Rural Development Agency",
+      "district": "Tiruvannamalai",
+      "isActive": true,
+      "phoneNumber": "+91 94440 33003"
+    },
+    {
+      "id": "usr-gis-analyst",
+      "name": "P. Vigneshwaran, M.Tech GIS",
+      "email": "gisanalyst@geoharvest.gov.in",
+      "role": "gis_analyst",
+      "designation": "Senior Remote Sensing & GIS Specialist",
+      "department": "State Remote Sensing & Spatial Data Centre",
+      "district": "Tiruvannamalai & Vellore Region",
+      "isActive": true,
+      "phoneNumber": "+91 94440 44004"
+    },
+    {
+      "id": "usr-field-officer",
+      "name": "S. Kathiravan, B.E. Agri",
+      "email": "fieldofficer@geoharvest.gov.in",
+      "role": "field_officer",
+      "designation": "Assistant Agricultural Engineer (Watershed)",
+      "department": "Agricultural Engineering Department",
+      "district": "Tiruvannamalai (Chengam Block)",
+      "assignedWatershedIds": [
+        "ws-tvm-04a",
+        "ws-tvm-07b"
+      ],
+      "isActive": true,
+      "phoneNumber": "+91 94440 55005"
+    },
+    {
+      "id": "usr-verify-officer",
+      "name": "V. Jayaprakash, M.E. Hydrology",
+      "email": "verifier@geoharvest.gov.in",
+      "role": "verification_officer",
+      "designation": "Executive Engineer (Quality & Verification)",
+      "department": "Quality Control & Third-Party Audit Cell",
+      "district": "Tiruvannamalai Division",
+      "isActive": true,
+      "phoneNumber": "+91 94440 66006"
+    },
+    {
+      "id": "usr-community-user",
+      "name": "C. Muthulakshmi",
+      "email": "farmer.muthulakshmi@village.geoharvest.in",
+      "role": "community_user",
+      "designation": "Secretary, Melchengam Watershed User Association",
+      "department": "Village Watershed Committee",
+      "district": "Tiruvannamalai",
+      "isActive": true,
+      "phoneNumber": "+91 98420 77007"
+    },
+    {
+      "id": "usr-public-viewer",
+      "name": "Citizen Guest / Academic Researcher",
+      "email": "public@geoharvest.gov.in",
+      "role": "public_viewer",
+      "designation": "Public Viewer / Citizen",
+      "department": "Public Domain Portal",
+      "district": "All Districts",
+      "isActive": true
+    }
+  ],
+  "districts": [
+    {
+      "id": "dist-tvm",
+      "name": "Tiruvannamalai",
+      "state": "Tamil Nadu",
+      "code": "TN-TVM-06"
+    }
+  ],
+  "villages": [
+    {
+      "id": "vil-melchengam",
+      "blockId": "blk-chengam",
+      "name": "Melchengam",
+      "tamilName": "மேல்செங்கம்",
+      "code": "TVM-CGM-01",
+      "population": 4280,
+      "households": 940,
+      "coordinates": [
+        12.2982,
+        78.8924
+      ]
+    },
+    {
+      "id": "vil-pudur",
+      "blockId": "blk-chengam",
+      "name": "Annamalai Pudur",
+      "tamilName": "அண்ணாமலை புதூர்",
+      "code": "TVM-CGM-02",
+      "population": 3150,
+      "households": 680,
+      "coordinates": [
+        12.3341,
+        78.9312
+      ]
+    }
+  ],
+  "watersheds": [
+    {
+      "id": "ws-tvm-04a",
+      "code": "4A2B5C-01",
+      "name": "Upper Cheyyar Sub-Watershed",
+      "tamilName": "மேல் செய்யாறு துணை நீர்ப்பிடிப்பு",
+      "district": "Tiruvannamalai",
+      "block": "Chengam",
+      "villages": [
+        "Melchengam",
+        "Annamalai Pudur"
+      ],
+      "areaHectares": 3420.5,
+      "drainageOrder": 4,
+      "averageRainfallMm": 980,
+      "healthScore": 78,
+      "healthCategory": "Healthy",
+      "structuresCount": {
+        "total": 5,
+        "functional": 4,
+        "needsAttention": 1,
+        "critical": 0
+      },
+      "waterConservationPotentialLakhLitres": 462.5,
+      "estimatedBeneficiaries": 820,
+      "coordinates": [
+        12.3025,
+        78.9054
+      ],
+      "bounds": [
+        [
+          12.275,
+          78.875
+        ],
+        [
+          12.335,
+          78.945
+        ]
+      ],
+      "lastSatelliteDate": "2026-08-28",
+      "lastFieldInspectionDate": "2026-09-04",
+      "isDemonstration": true
+    },
+    {
+      "id": "ws-tvm-07b",
+      "code": "4A2B5C-02",
+      "name": "Varahanadi Micro-Watershed",
+      "tamilName": "வராகநதி சிற்றூற்று நீர்ப்பிடிப்பு",
+      "district": "Tiruvannamalai",
+      "block": "Chengam North",
+      "villages": [
+        "Annamalai Pudur"
+      ],
+      "areaHectares": 2180,
+      "drainageOrder": 3,
+      "averageRainfallMm": 915,
+      "healthScore": 44,
+      "healthCategory": "Needs Attention",
+      "structuresCount": {
+        "total": 3,
+        "functional": 1,
+        "needsAttention": 1,
+        "critical": 1
+      },
+      "waterConservationPotentialLakhLitres": 284,
+      "estimatedBeneficiaries": 540,
+      "coordinates": [
+        12.3412,
+        78.9456
+      ],
+      "bounds": [
+        [
+          12.315,
+          78.915
+        ],
+        [
+          12.368,
+          78.978
+        ]
+      ],
+      "lastSatelliteDate": "2026-08-25",
+      "lastFieldInspectionDate": "2026-09-02",
+      "isDemonstration": true
+    }
+  ],
+  "interventions": [
+    {
+      "id": "int-01",
+      "code": "CKD-TVM-01",
+      "name": "Masonry Check Dam 1 - Melchengam Stream",
+      "type": "check_dam",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "villageId": "vil-melchengam",
+      "villageName": "Melchengam",
+      "status": "operational",
+      "conditionScore": 88,
+      "coordinates": [
+        12.2995,
+        78.8951
+      ],
+      "constructionYear": 2023,
+      "implementingAgency": "Agricultural Engineering Dept",
+      "approvedCostInr": 1250000,
+      "capacityCubicMetres": 14500,
+      "catchmentAreaHectares": 185.4,
+      "commandAreaHectares": 48,
+      "beneficiaryHouseholds": 92,
+      "siltLevelPercentage": 18,
+      "lastInspectionDate": "2026-08-20",
+      "nextInspectionDueDate": "2026-11-20",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    },
+    {
+      "id": "int-02",
+      "code": "FPD-TVM-02",
+      "name": "Community Farm Pond - Survey No. 142/3",
+      "type": "farm_pond",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "villageId": "vil-melchengam",
+      "villageName": "Melchengam",
+      "status": "operational",
+      "conditionScore": 82,
+      "coordinates": [
+        12.2941,
+        78.8892
+      ],
+      "constructionYear": 2024,
+      "implementingAgency": "DRDA Watershed Cell",
+      "approvedCostInr": 340000,
+      "capacityCubicMetres": 3200,
+      "catchmentAreaHectares": 24.5,
+      "commandAreaHectares": 12,
+      "beneficiaryHouseholds": 26,
+      "siltLevelPercentage": 14,
+      "lastInspectionDate": "2026-08-18",
+      "nextInspectionDueDate": "2026-11-18",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    },
+    {
+      "id": "int-03",
+      "code": "PTK-TVM-03",
+      "name": "Percolation Tank - Muniyappan Kovil Ridge",
+      "type": "percolation_tank",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "villageId": "vil-melchengam",
+      "villageName": "Melchengam",
+      "status": "operational",
+      "conditionScore": 76,
+      "coordinates": [
+        12.3082,
+        78.9124
+      ],
+      "constructionYear": 2022,
+      "implementingAgency": "Water Resources Dept",
+      "approvedCostInr": 1850000,
+      "capacityCubicMetres": 28000,
+      "catchmentAreaHectares": 310,
+      "commandAreaHectares": 110,
+      "beneficiaryHouseholds": 185,
+      "siltLevelPercentage": 32,
+      "lastInspectionDate": "2026-07-29",
+      "nextInspectionDueDate": "2026-10-29",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    },
+    {
+      "id": "int-04",
+      "code": "RCH-TVM-04",
+      "name": "Direct Well Recharge Shaft - Panchayat Union School",
+      "type": "recharge_structure",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "villageId": "vil-melchengam",
+      "villageName": "Melchengam",
+      "status": "operational",
+      "conditionScore": 94,
+      "coordinates": [
+        12.2968,
+        78.8911
+      ],
+      "constructionYear": 2024,
+      "implementingAgency": "Panchayat Union",
+      "approvedCostInr": 120000,
+      "capacityCubicMetres": 850,
+      "catchmentAreaHectares": 6.2,
+      "commandAreaHectares": 8.5,
+      "beneficiaryHouseholds": 44,
+      "siltLevelPercentage": 5,
+      "lastInspectionDate": "2026-08-25",
+      "nextInspectionDueDate": "2026-11-25",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    },
+    {
+      "id": "int-05",
+      "code": "PLT-TVM-05",
+      "name": "Agro-Forestry Buffer & Vetiver Plantation",
+      "type": "plantation",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "villageId": "vil-pudur",
+      "villageName": "Annamalai Pudur",
+      "status": "needs_maintenance",
+      "conditionScore": 58,
+      "coordinates": [
+        12.3125,
+        78.9248
+      ],
+      "constructionYear": 2023,
+      "implementingAgency": "Forest Dept (Social Forestry)",
+      "approvedCostInr": 450000,
+      "capacityCubicMetres": 0,
+      "catchmentAreaHectares": 45,
+      "commandAreaHectares": 35,
+      "beneficiaryHouseholds": 55,
+      "siltLevelPercentage": 0,
+      "lastInspectionDate": "2026-08-10",
+      "nextInspectionDueDate": "2026-09-10",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    },
+    {
+      "id": "int-06",
+      "code": "CKD-TVM-06",
+      "name": "Drop Spillway Check Dam - Varahanadi Gully",
+      "type": "check_dam",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "villageId": "vil-pudur",
+      "villageName": "Annamalai Pudur",
+      "status": "critical_damage",
+      "conditionScore": 28,
+      "coordinates": [
+        12.3389,
+        78.9482
+      ],
+      "constructionYear": 2021,
+      "implementingAgency": "Agricultural Engineering Dept",
+      "approvedCostInr": 980000,
+      "capacityCubicMetres": 9200,
+      "catchmentAreaHectares": 142,
+      "commandAreaHectares": 38,
+      "beneficiaryHouseholds": 65,
+      "siltLevelPercentage": 72,
+      "lastInspectionDate": "2026-08-05",
+      "nextInspectionDueDate": "2026-08-25",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    },
+    {
+      "id": "int-07",
+      "code": "PRJ-TVM-07",
+      "name": "Village Oorani Rejuvenation & Deepening",
+      "type": "pond_rejuvenation",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "villageId": "vil-pudur",
+      "villageName": "Annamalai Pudur",
+      "status": "needs_maintenance",
+      "conditionScore": 49,
+      "coordinates": [
+        12.3456,
+        78.9512
+      ],
+      "constructionYear": 2020,
+      "implementingAgency": "DRDA Watershed Cell",
+      "approvedCostInr": 720000,
+      "capacityCubicMetres": 12000,
+      "catchmentAreaHectares": 85,
+      "commandAreaHectares": 28,
+      "beneficiaryHouseholds": 110,
+      "siltLevelPercentage": 55,
+      "lastInspectionDate": "2026-08-08",
+      "nextInspectionDueDate": "2026-09-08",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    },
+    {
+      "id": "int-08",
+      "code": "CTR-TVM-08",
+      "name": "Continuous Contour Trenching - Hill Slope Section",
+      "type": "contour_trench",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "villageId": "vil-pudur",
+      "villageName": "Annamalai Pudur",
+      "status": "operational",
+      "conditionScore": 71,
+      "coordinates": [
+        12.3512,
+        78.961
+      ],
+      "constructionYear": 2023,
+      "implementingAgency": "Forestry & Soil Conservation",
+      "approvedCostInr": 580000,
+      "capacityCubicMetres": 4500,
+      "catchmentAreaHectares": 68,
+      "commandAreaHectares": 40,
+      "beneficiaryHouseholds": 42,
+      "siltLevelPercentage": 25,
+      "lastInspectionDate": "2026-07-22",
+      "nextInspectionDueDate": "2026-10-22",
+      "responsibleOfficerId": "usr-field-officer",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "isDemonstration": true
+    }
+  ],
+  "fieldEvidence": [
+    {
+      "id": "ev-01",
+      "interventionId": "int-01",
+      "interventionCode": "CKD-TVM-01",
+      "watershedId": "ws-tvm-04a",
+      "stage": "operational_monitoring",
+      "photoUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2026-08-20T11:24:00.000Z",
+      "coordinates": [
+        12.2996,
+        78.895
+      ],
+      "gpsAccuracyMeters": 3.2,
+      "cameraDirectionDegrees": 185,
+      "officerId": "usr-field-officer",
+      "officerName": "S. Kathiravan, B.E. Agri",
+      "status": "verified",
+      "validationStatus": "GPS within 12m perimeter. Timestamp validated.",
+      "structureCondition": "Good",
+      "waterLevelPercentage": 75,
+      "siltLevelPercentage": 18,
+      "notes": "Water retention is robust post-August showers. Minor grass overgrowth on left wing wall removed on site.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    },
+    {
+      "id": "ev-02",
+      "interventionId": "int-01",
+      "interventionCode": "CKD-TVM-01",
+      "watershedId": "ws-tvm-04a",
+      "stage": "after_completion",
+      "photoUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2023-11-14T15:10:00.000Z",
+      "coordinates": [
+        12.2995,
+        78.8952
+      ],
+      "gpsAccuracyMeters": 4.1,
+      "officerId": "usr-verify-officer",
+      "officerName": "V. Jayaprakash, M.E. Hydrology",
+      "status": "verified",
+      "validationStatus": "Official completion inspection certified.",
+      "structureCondition": "Good",
+      "waterLevelPercentage": 90,
+      "siltLevelPercentage": 0,
+      "notes": "Commissioning inspection completed. Full crest length verified as per approved drawing.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    },
+    {
+      "id": "ev-03",
+      "interventionId": "int-02",
+      "interventionCode": "FPD-TVM-02",
+      "watershedId": "ws-tvm-04a",
+      "stage": "operational_monitoring",
+      "photoUrl": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2026-08-18T10:05:00.000Z",
+      "coordinates": [
+        12.2942,
+        78.8893
+      ],
+      "gpsAccuracyMeters": 2.8,
+      "cameraDirectionDegrees": 45,
+      "officerId": "usr-field-officer",
+      "officerName": "S. Kathiravan, B.E. Agri",
+      "status": "verified",
+      "validationStatus": "Position accurate. Inflow inlet free of debris.",
+      "structureCondition": "Good",
+      "waterLevelPercentage": 65,
+      "siltLevelPercentage": 14,
+      "notes": "Silt trap functioning well. Inlet filter channel in intact condition.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    },
+    {
+      "id": "ev-04",
+      "interventionId": "int-03",
+      "interventionCode": "PTK-TVM-03",
+      "watershedId": "ws-tvm-04a",
+      "stage": "operational_monitoring",
+      "photoUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2026-07-29T14:40:00.000Z",
+      "coordinates": [
+        12.3081,
+        78.9123
+      ],
+      "gpsAccuracyMeters": 5,
+      "officerId": "usr-field-officer",
+      "officerName": "S. Kathiravan, B.E. Agri",
+      "status": "verified",
+      "validationStatus": "Routine quarterly check.",
+      "structureCondition": "Fair",
+      "waterLevelPercentage": 40,
+      "siltLevelPercentage": 32,
+      "notes": "Percolation rate nominal. Silt accumulation noticeable at northeast inflow corner.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    },
+    {
+      "id": "ev-05",
+      "interventionId": "int-05",
+      "interventionCode": "PLT-TVM-05",
+      "watershedId": "ws-tvm-04a",
+      "stage": "maintenance",
+      "photoUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2026-08-10T09:30:00.000Z",
+      "coordinates": [
+        12.3126,
+        78.9247
+      ],
+      "gpsAccuracyMeters": 3.5,
+      "officerId": "usr-field-officer",
+      "officerName": "S. Kathiravan, B.E. Agri",
+      "status": "review_required",
+      "validationStatus": "Review required: 22% seedling mortality detected along southern bund.",
+      "structureCondition": "Fair",
+      "waterLevelPercentage": 0,
+      "siltLevelPercentage": 0,
+      "notes": "Cattle grazing damage reported in southern plot. Fencing repairs and gap planting required.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    },
+    {
+      "id": "ev-06",
+      "interventionId": "int-06",
+      "interventionCode": "CKD-TVM-06",
+      "watershedId": "ws-tvm-07b",
+      "stage": "operational_monitoring",
+      "photoUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2026-08-05T16:15:00.000Z",
+      "coordinates": [
+        12.339,
+        78.9481
+      ],
+      "gpsAccuracyMeters": 4.8,
+      "cameraDirectionDegrees": 210,
+      "officerId": "usr-field-officer",
+      "officerName": "S. Kathiravan, B.E. Agri",
+      "status": "verified",
+      "validationStatus": "Critical damage confirmed on site.",
+      "structureCondition": "Damaged",
+      "waterLevelPercentage": 20,
+      "siltLevelPercentage": 72,
+      "notes": "High siltation (72%). Scour hole observed downstream of stilling basin apron. Immediate desilting & apron reconstruction needed.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    },
+    {
+      "id": "ev-07",
+      "interventionId": "int-07",
+      "interventionCode": "PRJ-TVM-07",
+      "watershedId": "ws-tvm-07b",
+      "stage": "operational_monitoring",
+      "photoUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2026-08-08T11:50:00.000Z",
+      "coordinates": [
+        12.3455,
+        78.9511
+      ],
+      "gpsAccuracyMeters": 3.9,
+      "officerId": "usr-field-officer",
+      "officerName": "S. Kathiravan, B.E. Agri",
+      "status": "verified",
+      "validationStatus": "Siltation verified.",
+      "structureCondition": "Silted",
+      "waterLevelPercentage": 35,
+      "siltLevelPercentage": 55,
+      "notes": "Heavy weed growth and silt depth over 1.2m recorded. Inlet feeder channel partially obstructed by wild shrubs.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    },
+    {
+      "id": "ev-08",
+      "interventionId": "int-08",
+      "interventionCode": "CTR-TVM-08",
+      "watershedId": "ws-tvm-07b",
+      "stage": "operational_monitoring",
+      "photoUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+      "capturedAt": "2026-07-22T10:12:00.000Z",
+      "coordinates": [
+        12.3513,
+        78.9611
+      ],
+      "gpsAccuracyMeters": 6.1,
+      "officerId": "usr-field-officer",
+      "officerName": "S. Kathiravan, B.E. Agri",
+      "status": "verified",
+      "validationStatus": "Periodic hill slope monitoring record.",
+      "structureCondition": "Good",
+      "waterLevelPercentage": 15,
+      "siltLevelPercentage": 25,
+      "notes": "Contour bund berms holding topsoil effectively. No major washouts after recent rain.",
+      "isOfflineSync": false,
+      "isDemonstration": true
+    }
+  ],
+  "maintenanceAlerts": [
+    {
+      "id": "alt-01",
+      "code": "ALT-TVM-2026-001",
+      "interventionId": "int-06",
+      "interventionCode": "CKD-TVM-06",
+      "interventionName": "Drop Spillway Check Dam - Varahanadi Gully",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "issue": "Critical Silt Accumulation (72%) and Apron Scour Breach Risk",
+      "issueTamil": "கடும் வண்டல் படிவு (72%) மற்றும் சரிவு தடுப்பு சுவர் சேத அபாயம்",
+      "priority": "critical",
+      "status": "action_assigned",
+      "confidenceScore": 94,
+      "supportingEvidence": "Field inspection ev-06 shows 72% siltation, reducing effective retention to 20%.",
+      "recommendedAction": "Execute mechanical desilting and reconstruct 4.5m stone pitch apron prior to northeast monsoon.",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "dueDate": "2026-09-18",
+      "createdAt": "2026-08-06T08:30:00.000Z",
+      "isDemonstration": true
+    },
+    {
+      "id": "alt-02",
+      "code": "ALT-TVM-2026-002",
+      "interventionId": "int-07",
+      "interventionCode": "PRJ-TVM-07",
+      "interventionName": "Village Oorani Rejuvenation & Deepening",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "issue": "Inlet Feeder Channel Blockage & Weed Infestation",
+      "issueTamil": "நீர்வரத்து வாய்க்கால் அடைப்பு மற்றும் செடி களைகள் ஆக்கிரமிப்பு",
+      "priority": "high",
+      "status": "open",
+      "confidenceScore": 88,
+      "supportingEvidence": "Villager complaint CMP-2026-002 corroborated by field evidence ev-07.",
+      "recommendedAction": "Clear 380m inlet feeder canal and mobilize MGNREGS community desilting team.",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "dueDate": "2026-09-25",
+      "createdAt": "2026-08-09T14:15:00.000Z",
+      "isDemonstration": true
+    },
+    {
+      "id": "alt-03",
+      "code": "ALT-TVM-2026-003",
+      "interventionId": "int-05",
+      "interventionCode": "PLT-TVM-05",
+      "interventionName": "Agro-Forestry Buffer & Vetiver Plantation",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "issue": "Vegetative Barrier Gap & Cattle Encroachment Risk",
+      "issueTamil": "மரக்கன்றுகள் வேலி சேதம் மற்றும் கால்நடை மேய்ச்சல் பாதிப்பு",
+      "priority": "medium",
+      "status": "open",
+      "confidenceScore": 78,
+      "supportingEvidence": "Mortality check in ev-05 indicates 22% sapling loss.",
+      "recommendedAction": "Procure 250 native saplings (Neem, Pongamia) and repair bio-fencing perimeter.",
+      "responsibleOfficerName": "S. Kathiravan, B.E. Agri",
+      "dueDate": "2026-10-05",
+      "createdAt": "2026-08-11T10:00:00.000Z",
+      "isDemonstration": true
+    }
+  ],
+  "complaints": [
+    {
+      "id": "cmp-01",
+      "trackingId": "CMP-2026-001",
+      "category": "check_dam_damaged",
+      "description": "Check dam stones displaced near southern wing wall during high monsoon discharge. Water leaking through base.",
+      "village": "Annamalai Pudur",
+      "watershedId": "ws-tvm-07b",
+      "coordinates": [
+        12.3388,
+        78.948
+      ],
+      "photoUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80",
+      "voiceLanguage": "ta",
+      "status": "action_approved",
+      "assignedOfficerName": "S. Kathiravan, B.E. Agri",
+      "createdAt": "2026-08-04T07:45:00.000Z",
+      "updatedAt": "2026-08-07T11:20:00.000Z",
+      "isDemonstration": true
+    },
+    {
+      "id": "cmp-02",
+      "trackingId": "CMP-2026-002",
+      "category": "pond_filled_with_silt",
+      "description": "The village oorani has accumulated over 1 metre of silt. Water storage is not lasting into summer months.",
+      "village": "Annamalai Pudur",
+      "watershedId": "ws-tvm-07b",
+      "coordinates": [
+        12.3458,
+        78.9515
+      ],
+      "voiceLanguage": "ta",
+      "status": "officer_assigned",
+      "assignedOfficerName": "S. Kathiravan, B.E. Agri",
+      "createdAt": "2026-08-07T16:30:00.000Z",
+      "updatedAt": "2026-08-08T09:10:00.000Z",
+      "isDemonstration": true
+    },
+    {
+      "id": "cmp-03",
+      "trackingId": "CMP-2026-003",
+      "category": "drainage_blocked",
+      "description": "Agricultural runoff stream blocked near Survey No. 89 by wild bushes and debris. Fields get flooded during heavy rains.",
+      "village": "Melchengam",
+      "watershedId": "ws-tvm-04a",
+      "coordinates": [
+        12.3012,
+        78.8998
+      ],
+      "voiceLanguage": "en",
+      "status": "submitted",
+      "createdAt": "2026-09-02T10:15:00.000Z",
+      "updatedAt": "2026-09-02T10:15:00.000Z",
+      "isDemonstration": true
+    },
+    {
+      "id": "cmp-04",
+      "trackingId": "CMP-2026-004",
+      "category": "water_not_reaching_farms",
+      "description": "Tail-end ayacut farmers in Melchengam west not receiving seepage benefit due to silt buildup in percolation tank channel.",
+      "village": "Melchengam",
+      "watershedId": "ws-tvm-04a",
+      "coordinates": [
+        12.3055,
+        78.908
+      ],
+      "voiceLanguage": "ta",
+      "status": "under_review",
+      "createdAt": "2026-09-05T14:00:00.000Z",
+      "updatedAt": "2026-09-06T09:30:00.000Z",
+      "isDemonstration": true
+    }
+  ],
+  "fieldActions": [
+    {
+      "id": "act-01",
+      "code": "ACT-2026-101",
+      "title": "Detailed Engineering Inspection of Damaged Apron - CKD-TVM-06",
+      "type": "inspection",
+      "priority": "critical",
+      "status": "in_progress",
+      "interventionId": "int-06",
+      "interventionName": "Drop Spillway Check Dam - Varahanadi Gully",
+      "complaintId": "cmp-01",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "assignedOfficerId": "usr-field-officer",
+      "assignedOfficerName": "S. Kathiravan, B.E. Agri",
+      "dueDate": "2026-09-15",
+      "createdAt": "2026-08-08T10:00:00.000Z",
+      "notes": "Prepare cross-sectional estimate for stone pitch apron and silt clearance estimate.",
+      "isDemonstration": true
+    },
+    {
+      "id": "act-02",
+      "code": "ACT-2026-102",
+      "title": "Feeder Canal Clearing & Desilting Assessment - Oorani PRJ-TVM-07",
+      "type": "desilting",
+      "priority": "high",
+      "status": "assigned",
+      "interventionId": "int-07",
+      "interventionName": "Village Oorani Rejuvenation & Deepening",
+      "complaintId": "cmp-02",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "assignedOfficerId": "usr-field-officer",
+      "assignedOfficerName": "S. Kathiravan, B.E. Agri",
+      "dueDate": "2026-09-22",
+      "createdAt": "2026-08-10T11:30:00.000Z",
+      "isDemonstration": true
+    },
+    {
+      "id": "act-03",
+      "code": "ACT-2026-103",
+      "title": "Post-Monsoon Quality Verification - Check Dam CKD-TVM-01",
+      "type": "verification",
+      "priority": "medium",
+      "status": "completed",
+      "interventionId": "int-01",
+      "interventionName": "Masonry Check Dam 1 - Melchengam Stream",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "assignedOfficerId": "usr-verify-officer",
+      "assignedOfficerName": "V. Jayaprakash, M.E. Hydrology",
+      "dueDate": "2026-08-25",
+      "createdAt": "2026-08-15T09:00:00.000Z",
+      "completedAt": "2026-08-22T16:00:00.000Z",
+      "notes": "Sound structural condition confirmed. Hydrological recharge functioning within design tolerance.",
+      "isDemonstration": true
+    },
+    {
+      "id": "act-04",
+      "code": "ACT-2026-104",
+      "title": "Field Investigation of Blocked Drainage Stream (Survey No. 89)",
+      "type": "complaint_investigation",
+      "priority": "medium",
+      "status": "pending",
+      "complaintId": "cmp-03",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "assignedOfficerId": "usr-field-officer",
+      "assignedOfficerName": "S. Kathiravan, B.E. Agri",
+      "dueDate": "2026-09-18",
+      "createdAt": "2026-09-03T11:00:00.000Z",
+      "isDemonstration": true
+    }
+  ],
+  "proposals": [
+    {
+      "id": "prop-01",
+      "code": "PROP-TVM-01",
+      "title": "New Masonry Check Dam at Cheyyar Upper Reach",
+      "type": "check_dam",
+      "watershedId": "ws-tvm-04a",
+      "watershedName": "Upper Cheyyar Sub-Watershed",
+      "villageName": "Melchengam",
+      "estimatedCostInr": 1450000,
+      "potentialWaterLakhLitres": 165,
+      "beneficiaryFarmersCount": 78,
+      "beneficiaryAreaHectares": 42.5,
+      "priorityScore": 89,
+      "rank": 1,
+      "status": "ranked",
+      "isDemonstration": true
+    },
+    {
+      "id": "prop-02",
+      "code": "PROP-TVM-02",
+      "title": "Percolation Pond at Varahanadi Gully Junction",
+      "type": "percolation_tank",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "villageName": "Annamalai Pudur",
+      "estimatedCostInr": 1800000,
+      "potentialWaterLakhLitres": 210,
+      "beneficiaryFarmersCount": 115,
+      "beneficiaryAreaHectares": 64,
+      "priorityScore": 84,
+      "rank": 2,
+      "status": "ranked",
+      "isDemonstration": true
+    },
+    {
+      "id": "prop-03",
+      "code": "PROP-TVM-03",
+      "title": "Hillock Contour Bunding & Vetiver Bio-Filter Zone",
+      "type": "contour_trench",
+      "watershedId": "ws-tvm-07b",
+      "watershedName": "Varahanadi Micro-Watershed",
+      "villageName": "Annamalai Pudur",
+      "estimatedCostInr": 650000,
+      "potentialWaterLakhLitres": 75,
+      "beneficiaryFarmersCount": 45,
+      "beneficiaryAreaHectares": 28,
+      "priorityScore": 76,
+      "rank": 3,
+      "status": "under_review",
+      "isDemonstration": true
+    }
+  ],
+  "budgetScenarios": [
+    {
+      "id": "scen-01",
+      "name": "FY 2026-27 District Watershed Development Program (DWDP)",
+      "totalBudgetInr": 3500000,
+      "allocatedBudgetInr": 3250000,
+      "selectedProjectsCount": 2,
+      "expectedWaterYieldLakhLitres": 375,
+      "totalBeneficiaries": 193,
+      "status": "active",
+      "isDemonstration": true
+    },
+    {
+      "id": "scen-02",
+      "name": "Drought Resilience Emergency Plan (Varahanadi Priority)",
+      "totalBudgetInr": 2500000,
+      "allocatedBudgetInr": 2450000,
+      "selectedProjectsCount": 2,
+      "expectedWaterYieldLakhLitres": 285,
+      "totalBeneficiaries": 160,
+      "status": "draft",
+      "isDemonstration": true
+    }
+  ],
+  "auditLogs": [
+    {
+      "userId": "usr-super-admin",
+      "userName": "Dr. R. Sundaramurthy, IAS",
+      "userRole": "super_admin",
+      "action": "USER_LOGIN",
+      "category": "AUTH",
+      "details": "User signed in successfully with role 'super_admin' (Principal Secretary & State Mission Director).",
+      "ipAddress": "127.0.0.1",
+      "isDemonstration": true,
+      "id": "aud-mtvfobe0-g8hp",
+      "timestamp": "2026-09-10T11:17:58.056Z"
+    },
+    {
+      "userId": "usr-field-officer",
+      "userName": "S. Kathiravan, B.E. Agri",
+      "userRole": "field_officer",
+      "action": "USER_LOGIN",
+      "category": "AUTH",
+      "details": "User signed in successfully with role 'field_officer' (Assistant Agricultural Engineer (Watershed)).",
+      "ipAddress": "127.0.0.1",
+      "isDemonstration": true,
+      "id": "aud-mtvfo51d-99g4",
+      "timestamp": "2026-09-10T11:17:49.825Z"
+    },
+    {
+      "id": "aud-01",
+      "timestamp": "2026-09-10T03:30:15.000Z",
+      "userId": "usr-gov-admin",
+      "userName": "K. Sangeetha, DRO",
+      "userRole": "government_admin",
+      "action": "REVIEW_MAINTENANCE_ALERTS",
+      "category": "WATERSHED",
+      "details": "Reviewed critical alert ALT-TVM-2026-001 for Check Dam CKD-TVM-06. Approved priority field assignment.",
+      "ipAddress": "10.12.44.18",
+      "isDemonstration": true
+    },
+    {
+      "id": "aud-02",
+      "timestamp": "2026-09-08T05:14:22.000Z",
+      "userId": "usr-field-officer",
+      "userName": "S. Kathiravan, B.E. Agri",
+      "userRole": "field_officer",
+      "action": "SYNC_FIELD_EVIDENCE",
+      "category": "EVIDENCE",
+      "details": "Synchronized field evidence ev-01 with verified GPS coordinates and structure status.",
+      "ipAddress": "10.12.89.204",
+      "isDemonstration": true
+    },
+    {
+      "id": "aud-03",
+      "timestamp": "2026-09-07T08:45:10.000Z",
+      "userId": "usr-dist-admin",
+      "userName": "M. Arumugam, DRDA",
+      "userRole": "district_admin",
+      "action": "ASSIGN_FIELD_ACTION",
+      "category": "FIELD_ACTION",
+      "details": "Assigned Action ACT-2026-101 (Damaged apron inspection) to Officer S. Kathiravan.",
+      "ipAddress": "10.12.44.52",
+      "isDemonstration": true
+    },
+    {
+      "id": "aud-04",
+      "timestamp": "2026-09-05T14:02:00.000Z",
+      "userId": "usr-community-user",
+      "userName": "C. Muthulakshmi",
+      "userRole": "community_user",
+      "action": "SUBMIT_COMPLAINT",
+      "category": "COMPLAINT",
+      "details": "Submitted villager complaint CMP-2026-004 regarding tail-end irrigation water shortfall.",
+      "ipAddress": "172.24.110.15",
+      "isDemonstration": true
+    },
+    {
+      "id": "aud-05",
+      "timestamp": "2026-09-01T04:00:00.000Z",
+      "userId": "system",
+      "userName": "GEOHarvest Automated Sentinel Service",
+      "userRole": "super_admin",
+      "action": "SATELLITE_SERVICE_HEALTHCHECK",
+      "category": "SYSTEM",
+      "details": "Copernicus Sentinel-2 API status check: Connector ready. Periodic processing job schedule updated.",
+      "ipAddress": "127.0.0.1",
+      "isDemonstration": true
+    }
+  ],
+  "externalServices": [
+    {
+      "serviceName": "copernicus_sentinel2",
+      "displayName": "Copernicus Data Space (Sentinel-2 STAC / Process API)",
+      "status": "not_configured",
+      "lastChecked": "2026-09-10T04:00:00.000Z",
+      "message": "Copernicus integration is not configured. Add authorized API credentials or upload an authorized analysis result.",
+      "details": "Requires COPERNICUS_CLIENT_ID and COPERNICUS_CLIENT_SECRET. No fake satellite imagery or mocked indexes will be generated."
+    },
+    {
+      "serviceName": "python_gis_fastapi",
+      "displayName": "Python GIS Microservice (Cloud Run GeoPandas/Rasterio)",
+      "status": "not_configured",
+      "lastChecked": "2026-09-10T04:00:00.000Z",
+      "message": "External Python GIS microservice adapter initialized; service endpoint not configured in environment.",
+      "details": "Standard Turf.js client and server spatial analysis active. Advanced raster classification requires Cloud Run service URL."
+    },
+    {
+      "serviceName": "database_postgis",
+      "displayName": "Primary Storage Engine",
+      "status": "connected",
+      "lastChecked": "2026-09-10T04:05:00.000Z",
+      "message": "GEOHarvest transactional persistent storage repository active with atomic disk state.",
+      "details": "Configured with strict repository abstraction layer for seamless Supabase PostGIS / Firestore migration."
+    },
+    {
+      "serviceName": "sms_whatsapp_gateway",
+      "displayName": "Gov SMS / WhatsApp Notification Gateway",
+      "status": "not_configured",
+      "lastChecked": "2026-09-10T04:00:00.000Z",
+      "message": "Direct in-app notification active. External SMS/WhatsApp gateway credentials not configured.",
+      "details": "Gateway adapters ready for CDAC / NIC SMS Gateway or Meta Cloud API."
+    }
+  ]
+}
